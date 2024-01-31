@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>^,..,^</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background">
+        <header>
+            <h1>carve.live</h1>
+        </header>
+        <main>
+            <div class="profile">
+                <img src="pfp1.jpg" alt="Profile Picture 1">
+                <p>ego</p>
+            </div>
+            <div class="profile">
+                <img src="pfp2.jpg" alt="Profile Picture 2">
+                <p>kiri</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
