@@ -60,16 +60,13 @@ main {
   margin-top: 10px;
 }
 
-.profile:nth-child(odd) {
-  transform: scale(0.9);
-}
-
+.profile:nth-child(odd),
 .profile:nth-child(even) {
-  transform: scale(0.8);
+  transform: scale(1);
 }
 
 .profile:hover {
-  transform: scale(1);
+  transform: scale(1.3);
 }
 
 .login-container {
@@ -135,6 +132,11 @@ button:hover {
 
 .founder {
   color: #460000;
+  font-weight: bold;
+}
+
+.cofounder {
+  color: #473172;
   font-weight: bold;
 }
 
