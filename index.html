@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="device-width, initial-scale=1.0">
+  <title>gate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="login-container">
+    <div class="login-box">
+      <div class="red-bar">
+        <h2>User Login</h2>
+      </div>
+      <div>
+        <div class="user-dropdown">
+          <label for="user">User:</label>
+          <select id="user" name="user">
+            <option value="ego">???</option>
+          </select>
+        </div>
+        <button onclick="enterWebsite()">OK</button>
+      </div>
+    </div>
+     
+  <script>
+    function enterWebsite() {
+      window.location.href = "users.html";
+    }
+  </script>
+</body>
+
+</html>
